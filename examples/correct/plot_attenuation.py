@@ -49,4 +49,5 @@ display.plot('corrected_reflectivity_horizontal', 0, vmin=0, vmax=60.,
              colorbar_label='', ax=ax3, title='Corrected Reflectivity')
 
 plt.suptitle('Attenuation correction using Py-ART', fontsize=16)
+print('Hello World!')
 plt.show()
